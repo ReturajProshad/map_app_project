@@ -63,7 +63,6 @@ class _HomeScreenState extends State<HomeScreen> {
       body: GoogleMap(
         initialCameraPosition: CameraPosition(
           target: _currentLatLng,
-          zoom: 15,
         ),
         myLocationEnabled: true,
         myLocationButtonEnabled: true,
